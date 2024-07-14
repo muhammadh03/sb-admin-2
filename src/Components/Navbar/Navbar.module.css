@@ -1,0 +1,35 @@
+.container {
+    /* background-color: aqua; */
+    height: 75px;
+    width: 100%;
+    box-shadow: rgba(18, 18, 19, 0.1) 0px 15px 15px -10px;
+}
+
+.navbar {
+    padding: 19px 30px;
+}
+
+input {
+    height: 35px;
+    width: 35%;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    background-color: #e6e6ec;
+    opacity: 0.3;
+}
+
+.navbarBtn {
+    height: 37px;
+    width: 40px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    color: #fff;
+    background-color: #4e73df;
+}
+
+/* .verticalLine {
+    height: 100%;
+    width: 1px;
+    background-color: #1616f1;
+    opacity: 0.3;
+} */

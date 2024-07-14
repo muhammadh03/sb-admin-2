@@ -1,0 +1,103 @@
+.container {
+    background-color: #4e73df;
+    color: #fff;
+    width: 230px;
+    height: auto;
+}
+
+.sidebar {
+    padding: 0px 15px;
+}
+
+h4 {
+    display: inline;
+    padding: 10px;
+    font-weight: normal;
+    font-size: 15px;
+}
+
+h6 {
+    opacity: 0.5;
+    font-size: 12px;
+}
+
+.sidebarHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 15px 0px;
+    cursor: pointer;
+}
+
+.sidebarHeader h3 {
+    padding: 0px 10px 0px;
+}
+
+.dashTextDiv {
+    padding: 15px 0px;
+    cursor: pointer;
+}
+
+.componentDiv {
+    padding: 0px 0px 40px 0px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.componentDiv:hover {
+    opacity: 1;
+}
+
+.utilitiesDiv{
+    padding: 0px 0px 15px 0px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.utilitiesDiv:hover {
+    opacity: 1;
+}
+
+.pagesDiv {
+    padding: 0px 0px 40px 0px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.pagesDiv:hover {
+    opacity: 1;
+}
+
+.chartsDiv {
+    padding: 0px 0px 40px 0px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.chartsDiv:hover {
+    opacity: 1;
+}
+
+.tablesDiv {
+    padding: 0px 0px 15px 0px;
+    cursor: pointer;
+    opacity: 0.5;
+}
+.tablesDiv:hover {
+    opacity: 1;
+}
+
+.sidebarBtn {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: none;
+    margin: 10px 75px;
+    cursor: pointer;
+    background-color: #fff;
+    opacity: 0.3;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+hr {
+    opacity: 0.5;
+}
