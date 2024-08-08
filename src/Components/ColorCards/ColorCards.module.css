@@ -1,0 +1,10 @@
+.content {
+    box-shadow: rgba(73, 73, 79, 0.2) 0px 7px 29px 0px;
+    border: 1px solid #e3e0e0;
+    height: 85px;
+    width: 229px;
+    border-radius: 5px;
+    padding: 16px;
+    color: #fff;
+    margin-bottom: 25px;
+}

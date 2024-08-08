@@ -1,0 +1,27 @@
+.card {
+    background: white;
+    border-radius: 0.313rem; /* 5px */
+    box-shadow: 0 0.15rem 1.75rem 0 rgba(58,59,69,0.15);
+    margin-bottom: 1.5rem;
+    box-shadow: rgba(73, 73, 79, 0.2) 0px 7px 29px 0px;
+    border: 1px solid #e3e0e0;
+}
+
+.cardHeader {
+    border-bottom: 1px solid #e3e6f0;
+    border-radius: 0.313rem 0.313rem 0 0; /* 5px */
+    padding: 1rem;
+    background-color: #f5f5f5;
+}
+
+.cardTitle {
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #4e73df;
+    opacity: 1;
+}
+
+.cardBody {
+    padding: 1rem;
+}

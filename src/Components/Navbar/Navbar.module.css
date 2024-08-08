@@ -1,17 +1,20 @@
 .container {
-    /* background-color: aqua; */
+  /*box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color];*/
+    box-shadow: rgba(18, 18, 19, 0.1) 0px 15px 15px -10px;
     height: 75px;
     width: 100%;
-    box-shadow: rgba(18, 18, 19, 0.1) 0px 15px 15px -10px;
 }
 
 .navbar {
-    padding: 19px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
 }
 
-input {
+.navbarInput > input {
     height: 35px;
-    width: 35%;
+    width: 358px;
     border: none;
     border-radius: 5px 0px 0px 5px;
     background-color: #e6e6ec;
@@ -27,9 +30,24 @@ input {
     background-color: #4e73df;
 }
 
-/* .verticalLine {
-    height: 100%;
-    width: 1px;
-    background-color: #1616f1;
-    opacity: 0.3;
-} */
+.navbar > i {
+    color: #e0dbdb;
+}
+
+.verticalLine {
+    height: 38px;
+    border: 1px solid #e8e6e6;
+}
+
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin: 10px;
+}

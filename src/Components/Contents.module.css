@@ -1,0 +1,27 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f8f9fc;
+}
+
+.dash {
+    display: flex;
+    padding: 0px 10px;
+}
+
+.container {
+    display: flex;
+    padding: 18px 10px;
+}
+
+.containerSecond {
+    display: flex;
+    padding: 0px 10px;
+    margin-bottom: 25px;
+}
+
+.contentDiv {
+    padding: 0px 15px;
+}

@@ -19,22 +19,23 @@ h4 {
 h6 {
     opacity: 0.5;
     font-size: 12px;
+    margin-bottom: 1.5rem;
 }
 
 .sidebarHeader {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 15px 0px;
+    padding: 19px 15px 0px;
     cursor: pointer;
 }
 
 .sidebarHeader h3 {
     padding: 0px 10px 0px;
+    font-size: 1rem; /*1rem is equivalent to 16px*/
 }
 
 .dashTextDiv {
-    padding: 15px 0px;
     cursor: pointer;
 }
 
@@ -48,7 +49,6 @@ h6 {
 }
 
 .utilitiesDiv{
-    padding: 0px 0px 15px 0px;
     cursor: pointer;
     opacity: 0.5;
 }
@@ -75,7 +75,6 @@ h6 {
 }
 
 .tablesDiv {
-    padding: 0px 0px 15px 0px;
     cursor: pointer;
     opacity: 0.5;
 }
@@ -99,5 +98,6 @@ button:hover {
 }
 
 hr {
-    opacity: 0.5;
+    background-color: #fff;
+    opacity: 0.3;
 }

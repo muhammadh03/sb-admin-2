@@ -1,0 +1,31 @@
+ importing specific components from the Chart.js library to use in a React application. Let’s break down each part:
+
+Chart as ChartJS:
+Imports the main Chart component from Chart.js and renames it to ChartJS.
+
+CategoryScale:
+For handling the x-axis (categorical axis) in charts.
+
+LinearScale:
+For handling the y-axis (numerical axis) in charts.
+
+PointElement:
+Allows you to add and configure individual points on line charts or scatter plots.
+
+LineElement:
+Enables drawing lines between data points on line charts.
+
+Title:
+Adds a title to your chart.
+
+Tooltip:
+Provides tooltips that show additional information when hovering over data points.
+
+Legend:
+Adds a legend to the chart for identifying datasets or categories.
+
+Filler:
+Fills the area under a line chart with a background color.
+
+ArcElement:
+Adds support for drawing arc-shaped elements like those used in pie charts and doughnut charts.

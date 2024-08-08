@@ -1,0 +1,51 @@
+.container {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 100px;
+    width: 229px;
+    border-radius: 5px;
+    margin: 13px;
+}
+
+.dashCards {
+    padding: 25px 10px;
+}
+
+.textContent , p {
+    display: inline;
+}
+
+.textContentPara {
+    opacity: 0.5;
+}
+
+.progressBarDiv {
+    float: right;
+    border-radius: 15px;
+    border: 1px solid rgba();
+    background-color: rgb(235, 231, 231);
+    width: 100px;
+    margin: 32px 5px 0px 0px; 
+
+}
+
+.progressBar {
+    height: 8px;
+    width: 50%;
+    border-radius: 15px;
+    background-color: #36b9cc;
+}
+
+.textContent i {
+    display: inline;
+    float: right;
+    margin: 10px 10px 0px;
+    font-size: 30px;
+    color: rgb(235, 231, 231);
+}
+
+/* .contentIcon {
+    display: inline;
+    float: right;
+    margin: 0px 10px 30px;
+    font-size: 24px;
+} */
